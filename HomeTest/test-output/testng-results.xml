@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OFFICE MATE Test Automation Test Suite" duration-ms="120573" started-at="2021-11-05T09:36:43Z" finished-at="2021-11-05T09:38:43Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="120573" started-at="2021-11-05T09:36:43Z" finished-at="2021-11-05T09:38:43Z">
+      <class name="com.officemate.qa.testscripts.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="setUp" is-config="true" duration-ms="43143" started-at="2021-11-05T09:36:50Z" finished-at="2021-11-05T09:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="searchProductWithSku" duration-ms="4301" started-at="2021-11-05T09:37:33Z" data-provider="getSearchData" finished-at="2021-11-05T09:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OFMY048740]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KASSA HOME Christmas Garland Fringe Fuzz B3922205 Gold color]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 38.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 18.00]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [OFMY048740] but found [OFM0011405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [OFMY048740] but found [OFM0011405]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.officemate.qa.testscripts.HomePageTest.searchProductWithSku(HomePageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="tearDown" is-config="true" duration-ms="883" started-at="2021-11-05T09:37:37Z" finished-at="2021-11-05T09:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="setUp" is-config="true" duration-ms="27886" started-at="2021-11-05T09:37:38Z" finished-at="2021-11-05T09:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="searchProductWithSku" duration-ms="4146" started-at="2021-11-05T09:38:06Z" data-provider="getSearchData" finished-at="2021-11-05T09:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MKP0406310]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gasoline Engine MOBIL1, 4 L. 5W-30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 2,700.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 2,450.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="tearDown" is-config="true" duration-ms="820" started-at="2021-11-05T09:38:10Z" finished-at="2021-11-05T09:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="setUp" is-config="true" duration-ms="26378" started-at="2021-11-05T09:38:11Z" finished-at="2021-11-05T09:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="searchProductWithSku" duration-ms="4835" started-at="2021-11-05T09:38:37Z" data-provider="getSearchData" finished-at="2021-11-05T09:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MKP0846673]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blue Fan Grip BT2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 599.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 229.00]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MKP0846673] but found [OFM0011405]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MKP0846673] but found [OFM0011405]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.officemate.qa.testscripts.HomePageTest.searchProductWithSku(HomePageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@57855c9a]" name="tearDown" is-config="true" duration-ms="884" started-at="2021-11-05T09:38:42Z" finished-at="2021-11-05T09:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.officemate.qa.testscripts.HomePageTest -->
+      <class name="com.officemate.qa.testscripts.ApiTest">
+        <test-method status="PASS" signature="testProductAvailablity(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@22a67b4]" name="testProductAvailablity" duration-ms="4495" started-at="2021-11-05T09:36:43Z" data-provider="getSearchQueryAPIProductAvailablity" finished-at="2021-11-05T09:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[331]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAvailablity -->
+        <test-method status="PASS" signature="testProductAvailablity(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@22a67b4]" name="testProductAvailablity" duration-ms="1627" started-at="2021-11-05T09:36:47Z" data-provider="getSearchQueryAPIProductAvailablity" finished-at="2021-11-05T09:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[675]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAvailablity -->
+        <test-method status="PASS" signature="testResponseCode(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@22a67b4]" name="testResponseCode" duration-ms="551" started-at="2021-11-05T09:36:49Z" data-provider="getResponseCode" finished-at="2021-11-05T09:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+        <test-method status="PASS" signature="testResponseCode(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@22a67b4]" name="testResponseCode" duration-ms="430" started-at="2021-11-05T09:36:49Z" data-provider="getResponseCode" finished-at="2021-11-05T09:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+      </class> <!-- com.officemate.qa.testscripts.ApiTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- OFFICE MATE Test Automation Test Suite -->
+</testng-results>
