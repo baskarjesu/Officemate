@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OFFICE MATE Test Automation Test Suite" duration-ms="106466" started-at="2021-11-05T07:24:04Z" finished-at="2021-11-05T07:25:50Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="106466" started-at="2021-11-05T07:24:04Z" finished-at="2021-11-05T07:25:50Z">
+      <class name="com.officemate.qa.testscripts.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="setUp" is-config="true" duration-ms="30927" started-at="2021-11-05T07:24:15Z" finished-at="2021-11-05T07:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="searchProductWithSku" duration-ms="5086" started-at="2021-11-05T07:24:46Z" data-provider="getSearchData" finished-at="2021-11-05T07:24:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OFMY048740]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KASSA HOME Christmas Garland Fringe Fuzz B3922205 Gold color]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 38.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 18.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="tearDown" is-config="true" duration-ms="858" started-at="2021-11-05T07:24:51Z" finished-at="2021-11-05T07:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="setUp" is-config="true" duration-ms="24293" started-at="2021-11-05T07:24:52Z" finished-at="2021-11-05T07:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="searchProductWithSku" duration-ms="4332" started-at="2021-11-05T07:25:16Z" data-provider="getSearchData" finished-at="2021-11-05T07:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MKP0406310]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gasoline Engine MOBIL1, 4 L. 5W-30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 2,700.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 2,450.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="tearDown" is-config="true" duration-ms="839" started-at="2021-11-05T07:25:20Z" finished-at="2021-11-05T07:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="setUp" is-config="true" duration-ms="23398" started-at="2021-11-05T07:25:21Z" finished-at="2021-11-05T07:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithSku(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="searchProductWithSku" duration-ms="4884" started-at="2021-11-05T07:25:44Z" data-provider="getSearchData" finished-at="2021-11-05T07:25:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MKP0846673]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blue Fan Grip BT2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[฿ 599.00]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[฿ 229.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSku -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.officemate.qa.testscripts.HomePageTest@68bbe345]" name="tearDown" is-config="true" duration-ms="941" started-at="2021-11-05T07:25:49Z" finished-at="2021-11-05T07:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.officemate.qa.testscripts.HomePageTest -->
+      <class name="com.officemate.qa.testscripts.ApiTest">
+        <test-method status="PASS" signature="testProductAvailablity(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@a7e666]" name="testProductAvailablity" duration-ms="5909" started-at="2021-11-05T07:24:04Z" data-provider="getSearchQueryAPIProductAvailablity" finished-at="2021-11-05T07:24:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[330]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAvailablity -->
+        <test-method status="PASS" signature="testProductAvailablity(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@a7e666]" name="testProductAvailablity" duration-ms="1464" started-at="2021-11-05T07:24:10Z" data-provider="getSearchQueryAPIProductAvailablity" finished-at="2021-11-05T07:24:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[674]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAvailablity -->
+        <test-method status="PASS" signature="testResponseCode(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@a7e666]" name="testResponseCode" duration-ms="1501" started-at="2021-11-05T07:24:11Z" data-provider="getResponseCode" finished-at="2021-11-05T07:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+        <test-method status="PASS" signature="testResponseCode(java.lang.String, java.lang.String)[pri:0, instance:com.officemate.qa.testscripts.ApiTest@a7e666]" name="testResponseCode" duration-ms="1809" started-at="2021-11-05T07:24:13Z" data-provider="getResponseCode" finished-at="2021-11-05T07:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+      </class> <!-- com.officemate.qa.testscripts.ApiTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- OFFICE MATE Test Automation Test Suite -->
+</testng-results>
